@@ -1,0 +1,28 @@
+.button-start {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: green;
+  cursor: pointer;
+  background-color: greenyellow;
+  font-weight: bolder;
+}
+.button-start:hover {
+  opacity: 0.7;
+}
+.button-start:active {
+  opacity: 0.5;
+}
+
+.button-stop {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: red;
+  cursor: pointer;
+  background-color: brown;
+  font-weight: bolder;
+}
+button {
+  width: 90px;
+}

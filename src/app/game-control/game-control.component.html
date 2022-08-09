@@ -1,0 +1,6 @@
+<button
+  [ngClass]="{ 'button-start': !gameStarted, 'button-stop': gameStarted }"
+  (click)="toggleStart()"
+>
+  {{ gameStarted ? "STOP" : "START" }}
+</button>
